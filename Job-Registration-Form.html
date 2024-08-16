@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Registration Form</title>
+    <style>
+        body {
+            font-family: "Roboto",sans-serif;
+            background-color: rgb(221, 250, 250);
+        }
+
+        .heading{
+            background-color: rgb(113, 139, 224);
+            text-align: center;
+            border: 1px solid red;
+            height: 3rem;
+            padding-top: 0.5rem;
+        }
+
+        .legend {
+            font-size: large;
+            color: rgb(76, 7, 186);
+        }
+
+        .but {
+            background-color: blue;
+            color: #fff;
+            border: 1px solid blue;
+            border-radius: 3px;
+            font-size: larger;
+        }
+        .but:hover{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="heading">Job Registration Form</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend class="legend">Fill Your Details</legend>
+                <p>
+                    <label for="fname"><b>First Name:</b></label>
+                    <input type="text" id="fname">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="lname"><b>Last Name:</b></label>
+                    <input type="text" id="lname">
+                </p>
+                <p>
+                    <label for="age"><b>Age:</b></label>
+                    <input type="number" id="age">
+                </p>
+                <p>
+                    <label for="gender"><b>Gender:</b></label>
+                    <select name="gender" id="gender">
+                        <optgroup>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Others</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label for="dob"><b>Date Of Birth:</b></label>
+                    <input type="date">
+                </p>
+                <p>
+                    <h3>You Intrested in:</h3>
+                    <input type="checkbox" id="data" name="data">
+                    <label for="data">Data Science</label>
+                    <input type="checkbox" id="cyber" name="cyber">
+                    <label for="cyber">Cyber Security</label>
+                    <input type="checkbox" id="aiml" name="aiml">
+                    <label for="aiml">AI & ML</label>
+                </p>
+                <div>
+                    <fieldset>
+                        <legend style="color: rgb(76, 7, 186); font-size: larger;">Education Marks</legend>
+                        <p>
+                            <label for="10th"><b>10<sup>th</sup>Marks:</b></label>
+                            <input type="text" id="1oth" placeholder="In percentile out of 100">
+                            <input type="file" placeholder="Upload File" id="10th">
+                        </p>
+                        <p>
+                            <label for="inter"><b>Intermediate:</b></label>
+                            <input type="text" id="inter" placeholder="In percentile out of 100">
+                            <input type="file" placeholder="Upload File" id="inter">
+                        </p>
+                        <p>
+                            <label for="grad"><b>Under Graducation:</b></label>
+                            <select name="grad" id="grad">
+                                <optgroup>
+                                    <option value="btech">B-Tech</option>
+                                    <option value="mca">MCA</option>
+                                    <option value="mba">MBA</option>
+                                    <option value="bba">BBA</option>
+                                </optgroup>
+                            </select>
+                            <input type="text" id="grad" placeholder="In percentile out of 100">
+                            <input type="file" placeholder="Upload File" id="grad">
+                        </p>
+                    </fieldset>
+                </div>
+                <p>
+                    <legend><b>Describe Yourself:</b></legend>
+                    <textarea name="desc" id="desc" rows="10" cols="60"></textarea >               
+                </p>
+                <div>
+                    <button type="button" class="but">Submit</button>
+                    <button type="button" class="but">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <a href="#">Back To Top</a>
+    </footer>
+</body>
+</html>

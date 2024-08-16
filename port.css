@@ -1,0 +1,141 @@
+.name{
+    font-size: 20px;
+    font-family: Roboto;
+    padding: 10px 0px 0px 70px;
+}
+.margin{
+    margin-left: 80vh;
+}
+.main-heading{
+    font-family: Bree serif;
+    font-size: 40px;
+    margin-top: 30vh;
+    margin-left: 40vh;
+}
+.main-image{
+    height: 70vh;
+    width: 30vw;
+    margin-top: 1vh;
+    margin-left: 20px;
+    filter: contrast(150%);
+    border-radius: 10px;
+    margin-top: 90px;
+    margin-left: 60px;
+}
+.button{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size:20px;
+    font-family: Bree serif;
+    margin-left: 10vh;
+
+}
+.social{
+    margin-left: 30px;
+
+}
+.social-margin{
+    margin-top: 5vh;
+    margin-left: 38vh;
+}
+.second-image{
+    height: 70vh;
+    width: 30vw;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 20vh;
+    margin-top: 10vh;
+    filter:contrast(150%)
+}
+.about-heading{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    padding-top: 20vh;
+    padding-left: 10vh;
+}
+.about-para{
+    font-size: 15px;
+    color: black;
+    padding-top: 5px;
+    padding-left: 10vh;
+    margin-right: 10vh;
+}
+.card1{
+    height: 35vh;
+    width: 13vw;
+    border-radius: 10px;
+    margin-left: 20vh;
+    margin-top: 10vh;
+}
+.card1-image{
+    height: 70px;
+    width: 70px;
+    border-radius: 5px;
+    margin-top: 30px;
+    filter: contrast(150%);
+}
+.crad1-button{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size:20px;
+    font-family: Bree serif;
+}
+.skills{
+    text-align: center;
+    font-size: 30px;
+    font-family: Bree serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.work-image{
+    height: 25vh;
+    width: 25vw;
+    border-radius: 10px;
+    margin-left: 10vh;
+    margin-top: 20px;
+    filter: contrast(150%);
+}
+.work-heading{
+    padding-left: 10vh;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: Bree serif;
+    font-size: 20px;
+}
+.work-para{
+    padding-left: 10vh;
+    padding-top: 1px;
+    font-family: Bree serif;
+    font-size: 15px;
+}
+.input{
+    height: 40px;
+    width: 40vh;
+}
+.margin1{
+    margin-left: 90vh;
+}
+.last-card{
+    background-color: #113d84;
+    background-size: cover;
+    height: 30vh;
+    margin-top: 20px;
+}
+.last-heading{
+    color: #ffffff;
+    text-align: center;
+    font-family: Bree serif;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+.last-media{
+    margin-left: 10px;
+    margin-top: 20px;
+}

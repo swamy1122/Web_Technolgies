@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Website</title>
+    <style>
+        #img1{
+            height: 75px;
+            width:150px;
+            position: relative;
+            left: 175px;
+            top: 70px;
+        }
+        #div1{
+            display: flex;
+            text-align: center;
+            
+            
+        }
+        
+        .nav{
+            position: relative;
+            top:75px;
+            left: 350px;
+            font-size: 2%;
+        }
+        #btn1{
+            padding: 10px;
+            color: black;
+            font-weight: bold;
+            margin: 10px;
+            background-color: white;
+            border: none;
+            cursor: pointer;
+           
+        }
+        #btn1:hover{
+            color: orange;
+        }
+        #btn2{
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        #h1{
+            position: relative;
+            left: 170px;
+        }
+        #h2{
+            position: relative;
+            left: 170px;
+            color: rgb(142, 139, 139);
+            font-weight: lighter;
+        }
+        #search{
+            position: relative;
+            left: 170px;
+            border-color: orange;
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id ="div1">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Swiggy_logo.svg/2560px-Swiggy_logo.svg.png" id="img1">
+        <nav class="nav">
+            <button id="btn1">Login</button>
+            <button id="btn2">Sign Up</button>
+        </nav>
+    </div>
+    <div>
+        <br><br><br><br><br><br><h1 id="h1">Movie Marathon?</h1>
+    </div>
+    <div>
+        <h2 id="h2">Order food from favourite restaurants near you.
+        </h2>
+    </div>
+    <div>
+        <input id="search" type="text" value="Enter your delivery location" maxlength="30">
+    </div>
+    
+</body>
+</html>

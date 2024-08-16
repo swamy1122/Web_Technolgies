@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkdin Login</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        body {
+            background-color: rgba(224, 231, 237, 0.932);
+            display: flexbox;
+            font-family: "Roboto",sans-serif;
+        }
+        
+        .logotxt {
+            font-size: 30px;
+            color: blue;
+            text-align: center;
+        }
+        .logocolor {
+            background-color: blue;
+            color: rgb(186, 194, 202);
+            border-radius: 2px;
+            margin-left: 0.2rem;
+            padding: 2px;
+        }
+
+        .professional {
+            font-size:x-large;
+            text-align: center;
+            flex-direction: row;
+            
+        }
+        
+        .mainpart {
+            margin-left: 40%;
+            width: 28%;
+        }
+
+        .fieldset {
+            background-color: white;
+            width: 30%;
+        }
+        .color {
+            color: blue;
+        }
+        .register {
+            background-color: blue;
+            color: #fff;
+            border: 1px solid blue;
+            width: 250px;
+            height: 30px;
+            text-align: center;
+            font-size: 0.8rem;
+            border-radius: 14px;
+        }
+
+        .signin {
+            background-color: rgba(253, 253, 254, 0.849);
+            color: #2600ff;
+            border: 1px solid blue;
+            width: 250px;
+            height: 30px;
+            text-align: center;
+            font-size: 0.8rem;
+            border-radius: 14px;
+
+            margin-top: 15px;
+        }
+        .or {
+            display: flex;
+            align-items: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <header class="Logo">
+       <p class="logotxt"> <b>Linked</b><span class="logocolor"><b>in</b></span></p>
+       <p class="professional">Make the most of your professional life</p>
+    </header>
+
+    <main class="mainpart">
+        <form >
+            <fieldset class="fieldset">
+                <p>
+                    <label for="email" style="font-size: 0.9rem; color: rgba(32, 31, 31, 0.685);">E-mail</label><br>
+                    <input type="email" size="35px">
+                </p>
+                <p>
+                    <label for="password"style="font-size: 0.9rem; color: rgba(32, 31, 31, 0.685);" >Password(6 characters minimum)</label><br>
+                    <input type="password" size="35px">
+                </p>
+                <p class="terms" style="font-size: 0.7rem; text-align: center;">
+                    By clicking and register you agree to the <span class="color">Terms of use.</span><br>the <span class="color">Privacy Policy</span>and <span class="color";>Cookies Policy</span> Linkedin.
+                </p>
+                <button class="register"><b>Accept and Register</b></button>
+                <br>
+                <br>
+                <div class="or">
+                    <hr style="border: 0.2px solid rgba(94, 94, 94, 0.772); width: 90px; margin-left: 22px;">or
+                    <hr style="border: 0.2px solid rgba(94, 94, 94, 0.772); width: 90px; margin-right: 22px;">
+               </div>
+               <button class="signin">Sign Up with Google</button>
+               <div style="font-size: medium; text-align: center;">
+                <p>Alredy Registered?<span style="color: #2600ff;">login</span></p>
+               </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer >
+        
+    </footer>
+</body>
+</html>
